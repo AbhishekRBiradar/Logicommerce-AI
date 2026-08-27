@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 *.pyd
+
+data/daily_demand.csv
+data/demand_features.csv
