@@ -166,3 +166,9 @@ Fuel consumption is estimated using:
 
 Fuel = Distance / Vehicle Fuel Efficiency
 
+
+
+## 🏗️ System Architecture
+
+![Logicommerce AI Architecture](docs/architecture.png)
+
