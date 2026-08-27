@@ -80,10 +80,163 @@ Urgent shipments can be kept separate to reduce the risk of consolidation-relate
 
 Fuel consumption is estimated using:
 
-```text
-Fuel = Distance / Vehicle Fuel Efficiency
-
+`Fuel = Distance / Vehicle Fuel Efficiency`
 
 ## System Architecture
 
-![Logicommerce AI Architecture](https://raw.githubusercontent.com/AbhishekRBiradar/Logicommerce-AI/main/docs/architecture.png)
+<img src="https://raw.githubusercontent.com/AbhishekRBiradar/Logicommerce-AI/main/docs/architecture.png" alt="Logicommerce AI Architecture" width="100%">
+
+The overall workflow is:
+
+Input Data → Shipment Intelligence → Shipment Consolidation → Vehicle Selection → Route Optimization → Fuel & Cost Optimization → Deadline Validation → Final Logistics Plan → Streamlit Dashboard
+
+## 📊 Dashboard
+
+The Streamlit dashboard provides:
+
+- Operations overview
+- Cost comparison
+- Deadline monitoring
+- Dispatch strategy
+- Fleet utilization
+- AI decision explanations
+- Final logistics plan
+- CSV export
+
+## 📈 Demonstration Results
+
+The current validated demonstration run produced:
+
+- Total transfers: 30
+- Transfers assigned: 30
+- Transfers unassigned: 0
+- Routes created: 20
+- Consolidated routes: 6
+- Separate routes: 7
+- Urgent separate routes: 7
+- Total distance: 14,910 km
+- Total fuel: 1,023.76 L
+- Optimized cost: ₹102,374.89
+- Baseline cost: ₹219,400.00
+- Estimated savings: ₹117,025.11
+- Overall savings: 53.3%
+- Average weight utilization: 14.4%
+- Average volume utilization: 33.0%
+- ON_TIME routes: 17
+- AT_RISK routes: 0
+- MISSED_DEADLINE routes: 3
+
+These values correspond to the current demonstration dataset and may change when the transfer-request dataset is regenerated.
+
+## 🧪 Validation
+
+The final pipeline verifies that every transfer is accounted for.
+
+Current validation:
+
+- Expected transfers: 30
+- Accounted transfers: 30
+- Missing transfers: 0
+- Transfer accounting validation: PASSED
+
+## 🔬 Optimization Methodology
+
+Logicommerce AI uses a layered decision process:
+
+1. Shipment Intelligence
+2. Shipment Consolidation
+3. Vehicle Matching
+4. Route Planning
+5. Fuel Optimization
+6. Cost Optimization
+7. Deadline Validation
+8. Explainable Decision Generation
+
+## 📦 Example Decision
+
+**Decision:** CONSOLIDATE
+
+**Route:** WH01 → WH02 → WH01
+
+**Transfers:** TRF00001, TRF00007, TRF00024, TRF00030
+
+**Vehicle:** VEH025
+
+The system combines compatible shipments when capacity constraints are satisfied and the combined dispatch provides a cost benefit without compromising deadline feasibility.
+
+## 🎯 Business Impact
+
+Logicommerce AI is designed to help logistics operations:
+
+- Reduce fuel consumption
+- Reduce unnecessary trips
+- Improve fleet utilization
+- Reduce transportation cost
+- Improve shipment consolidation
+- Protect urgent shipments
+- Improve deadline visibility
+- Support data-driven dispatch decisions
+
+## 🚀 Future Improvements
+
+Potential future extensions include:
+
+- Real-time GPS tracking
+- Live traffic integration
+- Dynamic fuel-price integration
+- Real-time vehicle availability
+- Predictive ETA models
+- Machine-learning-based delay prediction
+- PostgreSQL or cloud database integration
+- REST API integration
+- Real-time event processing
+- Advanced fleet optimization
+- Cloud deployment
+- Authentication and role-based access
+- Reinforcement learning for dynamic routing
+
+## 🎓 Skills Demonstrated
+
+Python · Pandas · NumPy · Operations Research · Constraint Optimization · Google OR-Tools · Route Optimization · Fleet Optimization · Shipment Consolidation · Fuel Optimization · Cost Optimization · Deadline-Aware Planning · Streamlit · Git · GitHub · System Design
+
+## 💼 Resume Project Description
+
+### Logicommerce AI — AI-Powered Logistics Optimization Platform
+
+Developed an end-to-end logistics optimization platform using Python, Pandas, NumPy and Streamlit to optimize shipment consolidation, vehicle selection, route planning, fleet utilization, fuel consumption and deadline-aware dispatch decisions. Implemented capacity and volume constraints, shipment prioritization, cost analysis, explainable optimization decisions and an interactive logistics operations dashboard.
+
+## 🔗 Repository
+
+https://github.com/AbhishekRBiradar/Logicommerce-AI
+
+## 👨‍💻 Author
+
+**Abhishek Rajkumar Biradar**
+
+AI & Machine Learning Student
+
+## ⭐ Project Status
+
+Core optimization engine ✅
+
+Shipment consolidation ✅
+
+Vehicle optimization ✅
+
+Route optimization ✅
+
+Fuel optimization ✅
+
+Deadline analysis ✅
+
+Transfer validation ✅
+
+Streamlit dashboard ✅
+
+GitHub repository ✅
+
+README documentation ✅
+
+## 📄 License
+
+This project is intended for educational, portfolio and demonstration purposes.
