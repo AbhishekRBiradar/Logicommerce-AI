@@ -39,8 +39,7 @@ def main():
 
     run_step(
         "Running final logistics optimizer",
-        "python src\\logistics_optimizer_v11_1.py"
-    )
+python src\logistics_optimizer.py    )
 
     print()
     print("=" * 60)
