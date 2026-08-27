@@ -163,7 +163,6 @@ Fuel consumption is estimated using:
 
 
 ```text
-
 Fuel = Distance / Vehicle Fuel Efficiency
 
 
