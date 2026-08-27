@@ -1,0 +1,6 @@
+warehouse_id,location,capacity_units,current_inventory_units
+WH01,Bangalore,8481,6869
+WH02,Hoskote,11165,9810
+WH03,Mysore,12593,8785
+WH04,Chennai,8977,3784
+WH05,Hyderabad,11350,4052

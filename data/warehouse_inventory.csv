@@ -1,0 +1,6 @@
+warehouse_id,location,capacity_units,current_inventory_units,safety_stock,usable_surplus
+WH01,Bangalore,8481,6869,2544.2999999999997,4324.700000000001
+WH02,Hoskote,11165,9810,3349.5,6460.5
+WH03,Mysore,12593,8785,3777.8999999999996,5007.1
+WH04,Chennai,8977,3784,2693.1,1090.9
+WH05,Hyderabad,11350,4052,3405.0,647.0
