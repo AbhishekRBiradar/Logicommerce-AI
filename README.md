@@ -166,8 +166,6 @@ Fuel consumption is estimated using:
 
 Fuel = Distance / Vehicle Fuel Efficiency
 
-```text
-
 
 ## 🏗️ System Architecture
 
