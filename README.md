@@ -199,11 +199,6 @@ Potential future extensions include:
 
 Python · Pandas · NumPy · Operations Research · Constraint Optimization · Google OR-Tools · Route Optimization · Fleet Optimization · Shipment Consolidation · Fuel Optimization · Cost Optimization · Deadline-Aware Planning · Streamlit · Git · GitHub · System Design
 
-## 💼 Resume Project Description
-
-### Logicommerce AI — AI-Powered Logistics Optimization Platform
-
-Developed an end-to-end logistics optimization platform using Python, Pandas, NumPy and Streamlit to optimize shipment consolidation, vehicle selection, route planning, fleet utilization, fuel consumption and deadline-aware dispatch decisions. Implemented capacity and volume constraints, shipment prioritization, cost analysis, explainable optimization decisions and an interactive logistics operations dashboard.
 
 ## 🔗 Repository
 
